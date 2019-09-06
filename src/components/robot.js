@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import starInActive from "../img/star-inactive.svg";
 import starActive from "../img/star-active.svg";
 
-// check localstorage in any favorites is active
+// check localstorage in any favorites is active.
 
 function useLocalStorage(localItem) {
   const [loc, setState] = useState(JSON.parse(localStorage.getItem(localItem)));
